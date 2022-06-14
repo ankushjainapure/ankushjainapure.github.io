@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Smart Switch</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+    }
+
+    td, th , caption{
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    caption {
+        background-color: #b5e952;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+    img {
+        width: 300px;
+        height: 400px;
+    }
+</style>
+
+</head>
+
+<body>
+
+
+    <div>
+        <img src="{{ipath}}" alt="Crisper Capture" border="2px,solid,black">
+        
+    </div>
+    <div>
+        <table>
+            <caption> Items List</caption>
+            <tr>
+                <th>Name</th>
+                <th>Quatity</th>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>{{ap}}</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>{{bn}}</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>{{og}}</td>
+            </tr>
+            <tr>
+                <td>Other</td>
+                <td>{{ot}}</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
+
+
